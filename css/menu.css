@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    color: rgb(225, 239, 230);
+    background: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
+
 }
 ol, ul {
 	list-style: none;
@@ -131,6 +135,11 @@ footer {
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    body{
+        color:rgb(0, 4, 17) ;
+        background: rgb(225, 239, 230);
+        border: rgb(0, 4, 17);
+    }
     .header-title {
         width: 75%;
         margin: 0 auto;
