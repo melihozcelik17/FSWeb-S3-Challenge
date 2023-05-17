@@ -88,6 +88,7 @@ h4 {
 
 p, a {
     font-size: 3rem;
+    color: white;
 }
 
 /* header section */
@@ -98,8 +99,27 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
 }
+header > div {  
+    padding: 2%; 
+    background:rgb(0,4,17,.8) ;
+}
+.ikon {
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
 
+}
+nav a{
+    font-size: 3rem;
+    margin: 4% 5%;
+    display: inline-block;
+}
+nav div{
+    text-align: center;
+}
 /* spacer */
 .spacer {
     width: 100%;
@@ -118,11 +138,42 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17,.08);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+h2{
+    text-align: center;
+}
+.menu-section{
+width: 30vh;
+margin: 2% 10%;
+display: inline-block;
+}
+.menu-container{
+    background-color: rgb(0, 4, 17, .8);
+    width: 100%;
+}
+.menu-item h4{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+
+}
+.menu-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.menu-item h4:first-child{
+    width: 78%;
+    text-align: left;
+}
+
+
+
 
 /* footer section */
 footer {
@@ -130,6 +181,46 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+   
+}
+.nav{
+    width: 65%;
+    
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+footer a{
+    margin: 0 ;
+    margin-bottom:3% ;
+    
+}
+.nav p{
+    text-align: right;
+    padding-right: 3%;
+    font-size: 2rem;
+
+}
+.email{
+    text-align: center;
+    width: 30%;
+    
+}
+.email button{
+    font-size: 2.5rem;
+    padding: 2%;
+
+}
+#email{
+    font-size: 2.5rem;
+    width: 70%;
+    padding: 2% ;
 }
 
 /* mobile media query */
@@ -158,4 +249,51 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+}
+footer {
+    width: 100%;
+    height: 15vh;
+    padding-top: 2.5vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+   
+}
+
+.nav{
+    width: 65%;
+    
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+footer a{
+    margin: 0 ;
+    margin-bottom:3% ;
+    
+}
+.nav p{
+    text-align: right;
+    padding-right: 3%;
+    font-size: 2rem;
+
+}
+.email{
+    text-align: center;
+    width: 30%;
+    
+}
+.email button{
+    font-size: 2.5rem;
+    padding: 2%;
+
+}
+#email{
+    font-size: 2.5rem;
+    width: 70%;
+    padding: 2% ;
 }
